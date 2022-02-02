@@ -3,7 +3,7 @@
 After have cloned this files you will have to run
 
 
-````~~~~~~~~~~~~~~~~~~```
+````
 :source %
 ```
 
