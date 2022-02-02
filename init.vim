@@ -117,7 +117,6 @@ nnoremap <right> <nop>
 nnoremap <leader>nt :NERDTree<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
-"  nnoremap <leader>Q :q!<CR>
 
 " moverse entre archivos
 map <leader>h :tabprevious<cr>
