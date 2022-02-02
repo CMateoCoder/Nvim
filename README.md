@@ -2,7 +2,6 @@
 
 After have cloned this files you will have to run
 
-
 ````
 :source %
 ```
@@ -14,6 +13,7 @@ Run the next commands
 ```
 :PlugInstall
 ```
+
 ```
 :CocInstall "ANY LANGUAGE YOU WANT"
 ```
