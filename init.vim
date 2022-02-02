@@ -88,7 +88,6 @@ call plug#end()
 " Theme
 
 colorscheme gruvbox
-let g:gruvbox_contrast_dark = 'hard'
 
 """""""
 
@@ -124,10 +123,6 @@ nnoremap <leader>q :q<CR>
 map <leader>h :tabprevious<cr>
 map <leader>l :tabnext<cr>
 
-" fast moves
-nnoremap <C-j> 10<C-e>
-nnoremap <C-k> 10<C-y>
-
 " node
 
 nnoremap <leader>x :!node %<cr>
@@ -142,8 +137,7 @@ nnoremap <leader>e :e $MYVIMRC<CR>
 
 " terminal
 
-vnoremap <c-t> :vertical split<CR>:terminal<CR>:vertical resize 66<CR>
-nnoremap <c-t> :vertical split<CR>:terminal<CR>:vertical resize 66<CR>
+vnoremap <c-t> :split<CR>:terminal<CR>:resize 13<CR>
+nnoremap <c-t> :split<CR>:terminal<CR>:resize 13<CR>
 
 let NERDTreeQuitOnOpen = 1
-let g:BASH_Ctrl_j = 'off'
