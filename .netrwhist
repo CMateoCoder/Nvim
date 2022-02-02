@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/swmatt/Desktop/workspace/javascript-lessons-exercise'
+let g:netrw_dirhist_2='/home/swmatt/Desktop/workspace/javascript-lessons-exercise/js'
+let g:netrw_dirhist_1='/home/swmatt/Desktop/workspace/javascript-lessons-exercise'
